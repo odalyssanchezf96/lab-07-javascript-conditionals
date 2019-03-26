@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var number = prompt ('Give me a number');
+      var otherNumb = prompt ('Give me another number');
+      var operation = prompt ('What kind of operation do you want to do - mult, div, or mod ?');
+
+      if (operation === 'mult'){
+        console.log(number * otherNumb);
+      } else if (operation === 'div'){
+        console.log(number / otherNumb);
+      } else if (operation === 'mod'){
+        console.log(number % otherNumb);
+      } else {
+        console.log('*** invalid operation ***');
+      }
+    </script>
+  </body>
+</html>
