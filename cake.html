@@ -7,10 +7,11 @@
   <body>
   <script>
     var cake = prompt ('Do you want cake?');
-    if (cake) {
-     alert("Have some cake");
-     else if (cake)
-      alert("No cake for you")
+
+    if (cake === 'yes') {
+     console.log("Have some cake");
+   } else if (cake !== 'yes'){
+      console.log("No cake for you")
     }
 
   </script>
